@@ -39,6 +39,7 @@ export const saveOrUpdate = (data: object) => {
     data
   });
 };
+
 /**
  * 新增或者修改广告位
  * @param data

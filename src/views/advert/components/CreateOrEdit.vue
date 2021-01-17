@@ -59,7 +59,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { Form } from "element-ui";
-import CourseImage from "@/components/CourseImage.vue";
+import CourseImage from "@/components/course-image/index.vue";
 import { getAdById, getAllSpaces, saveOrUpdate } from "@/services/space";
 
 export default Vue.extend({
@@ -154,8 +154,3 @@ export default Vue.extend({
   }
 });
 </script>
-
-<style lang="scss" scoped>
-.CreateOrEdit {
-}
-</style>

@@ -37,7 +37,6 @@
 <script lang="ts">
 import Vue from "vue";
 import { getRoleResources, allocateRoleResources } from "@/services/resource";
-import { Tree } from "element-ui";
 import { Resource } from "@/types";
 
 export default Vue.extend({

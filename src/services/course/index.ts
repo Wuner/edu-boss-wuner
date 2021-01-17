@@ -1,6 +1,5 @@
-import request, { get, post } from "@/utils/request";
+import request, { get } from "@/utils/request";
 import { Course, CourseFilter } from "@/types";
-import dayjs from "dayjs";
 
 /**
  * 保存或者更新课程信息

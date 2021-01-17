@@ -26,7 +26,7 @@ export const getRolePages = (data: RoleFilter) => {
 };
 
 /**
- * 删除资源
+ * 删除角色
  */
 export const delRole = (id: string | number) => {
   return request({

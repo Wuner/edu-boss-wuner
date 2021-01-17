@@ -1,5 +1,5 @@
 import { Lesson } from "@/types";
-import request, { get } from "@/utils/request";
+import request from "@/utils/request";
 
 /**
  * 保存或者更新课时
@@ -11,12 +11,4 @@ export const saveOrUpdateLesson = (data: Lesson) => {
     url: "/boss/course/lesson/saveOrUpdate",
     data
   });
-};
-
-/**
- * 通过Id获取课时
- * @param lessonId
- */
-export const getLessonById = (lessonId: number | string) => {
-  return get("/boss/course/lesson/getById", { lessonId });
 };

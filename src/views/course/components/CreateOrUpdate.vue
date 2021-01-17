@@ -155,7 +155,7 @@
 <script lang="ts">
 import Vue from "vue";
 import { saveOrUpdateCourse, getCourseById } from "@/services/course";
-import CourseImage from "../../../components/CourseImage.vue";
+import CourseImage from "@/components/course-image/index.vue";
 import TextEditor from "@/components/text-editor/index.vue";
 import dayjs from "dayjs";
 import { Course } from "@/types";
